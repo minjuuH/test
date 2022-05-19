@@ -10,8 +10,8 @@ class creatWindow:
         self.newWindow.geometry("960x720")
         self.newWindow.resizable(width=False, height=False)
 
-    def createLabel(self, w, h, t=''):
-        label = Label(self.newWindow, width=w, height=h, text=t)
+    def createLabel(self, w, h):
+        label = Label(self.newWindow, width=w, height=h)
         return label
 
     def createEntry(self, window):
