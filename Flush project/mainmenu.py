@@ -1,6 +1,7 @@
 from tkinter import *
 from tkinter import messagebox
-#from functools import partial
+
+#잔디야 심어져라... 왜 안심어지니ㅠ
 
 #팝업창 객체가 생성되는 클래스
 class creatWindow:
